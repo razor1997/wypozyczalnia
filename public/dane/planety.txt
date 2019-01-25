@@ -1,0 +1,9 @@
+﻿BMW;m5.png;M5;1989;2120;200;6/100[km];6/100[km];sedan
+Mercedes-Benz;amg.jpg;AMG;330,2;1790;87000,900;500;6/100[km];coupe
+Mercedes-Benz;cls63.png;cls63 AMG;4868,5;108208926;224,701;243d 0h 27m;0;coupe
+Nissan;gtr.jpg;gtr;5974,2;149597887;365,256;23h 56m 04s;1;coupe
+BMW;;M4;641,9;227936637;686,960;24h 37m 23s;2;coupe
+Ford;mustang.jpg;MUSTANG;1898600,8;778412027;4333,287;9h 55m 30s;67;coupe
+Audi; ;rs5;568516;1426725413;10756,200;10h 39m 22s;62;coupe
+Mercedes-Benz;s63.jpg;S63;86841,0;2870972220;30707,490; 17h 14m 24s;27;coupe
+Mercedes-Benz;gclass.jpg;Klasa G;102439,6;4498252900;60223,353;16h 06m 36s;14;suv

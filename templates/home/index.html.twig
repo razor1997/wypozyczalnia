@@ -1,0 +1,37 @@
+{% extends 'base.html.twig' %}
+{% block title %} Planety {% endblock %}
+{% block stylesheets %}
+<link rel="stylesheet" href="{{asset('css/cw3/style.css')}}"
+media="screen" />
+{% endblock %}
+{% block body %}
+<h1>OFERTA</h1>
+<table>
+<tr>
+<th>Lp.</th>
+<th>Marka</th>
+<th>Zdjęcie</th>
+<th>Model<br></th>
+<th>Masa<br></th>
+<th>Przebieg<br>[km]</th>
+<th>Limit km<br></th>
+<th>Cena za dobę</th>
+<th>Spalanie</th>
+<th>Nadwozie</th>
+</tr>
+{% for obiekt in dane %}
+<tr>
+<td> {{ loop.index }}.</td>
+<td> {{ obiekt.planeta }} </td>
+<td> <img src="images/{{ obiekt.plik }}"> </td>
+<td> {{ obiekt.srednica }} </td>
+<td> {{ obiekt.masa }} </td>
+<td> {{ obiekt.odleglosc }} </td>
+<td> {{ obiekt.czas_obiegu }} </td>
+<td> {{ obiekt.okres_obrotu }} </td>
+<td> {{ obiekt.ksiezyce }} </td>
+<td> {{ obiekt.rodzaj }} </td>
+</tr>
+{% endfor %}
+</table>
+{% endblock %}

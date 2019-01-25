@@ -1,0 +1,29 @@
+body {
+        font-family: Verdana;
+        font-size: medium;
+    }
+    h1, p {
+        text-align: center;
+    }
+    table {
+        border-collapse: collapse;
+        border: 1px solid black;
+        margin: 50px auto;
+        font-size: 80%;
+    }
+
+    td {
+        border: 1px solid black;
+        padding: 5px;
+        background:#eeeeee;
+        text-align:center;
+    }
+
+    th {
+        border: 1px solid black;
+        background:#333333;
+        color: white;
+        padding: 5px;
+        height:25px;
+    }
+
